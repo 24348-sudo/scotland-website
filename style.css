@@ -36,3 +36,20 @@ img{
 .info{
     font-size: 1.25rem
 }
+
+.three-column{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 100px;
+    width: 80%;
+    margin:auto;
+    margin-top: 40px;
+}
+
+.card{
+    background-color: rgb(0,0,140);
+}
+
+.card-text{
+    text-align: center;
+}
